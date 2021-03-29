@@ -1,0 +1,13 @@
+.nav{
+    position: fixed; /* Se mueve por toda la página web el menú .nav */
+    background-color: #ffffff;
+}
+
+.logo-nav{
+    width: 120px;
+    height: 80px;
+}
+
+.items{
+    margin-left: 20px;
+}
