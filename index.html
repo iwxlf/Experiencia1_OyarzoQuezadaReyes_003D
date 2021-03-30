@@ -5,15 +5,18 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
         <title>All Stars</title>
         <link rel="icon" href="img/estrella.png">
     </head>
     <body>
-        <header>
+        <header class="sticky-top headertrans">
             <nav class="navbar navbar-expand-sm navbar-light bg-light nav">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                </button>
                 <img class="logo-nav" src="img/logo.png">
                 <div class="collapse navbar-collapse" id="opciones"> 
                     <ul class="navbar-nav">
@@ -25,20 +28,147 @@
             </nav>
         </header>
 
-        <footer class="footer ">
-            <div class="footer-div">
-                <h4>Copyright - Todos los derechos reservados</h4>
-                <p>Siguenos en nuestras <b>redes sociales</b></p>
-                <a target="_blank" class="img-github" href="https://github.com/iwxlf/Experiencia1_OyarzoQuezadaReyes_003D"><img src="img/github.png"></a>
-                <a target="_blank" class="img-instagram" href="https://instagram.com/"><img src="img/instagram.png"></a>
-                <a target="_blank" class="img-youtube" href="https://www.youtube.com/watch?v=2Z412FMaF4Q&ab_channel=ElsinHD"><img src="img/youtube.png"></a>
+        <div id="carouselExampleIndicators" class="carousel slide carrusel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slider-1.png" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Juego1</h5>
+                    <p>Breve desc</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider-2.png" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Juego2</h5>
+                    <p>Breve desc</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider-3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Juego3</h5>
+                    <p>Breve desc</p>
+                </div>
+              </div>
             </div>
-            <div class="footer-div1">
-                <p>Ignacio Oyarzo - Carlos Quezada - Guillermo Reyes, Copyright &copy;2021 AllStar.</span></p>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="container">   
+            <h1 class="games-title">Juegos populares</h1>
+            <br>
+            <div class="row">       
+              <div class="col-md">        
+                  <div class="card">
+                    <img class="card-img-top" src="img/lol.jpg">            
+                    <div class="card-body">
+                      <h4 class="card-title">League of legends</h4>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                            tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                            nec tortor sit amet, maximus mattis dui. </p>
+                    </div>
+                  </div>          
+                </div>
+        
+                <div class="col-md">        
+                    <div class="card">
+                        <img class="card-img-top" src="img/lol.jpg">            
+                        <div class="card-body">
+                            <h4 class="card-title">League of legends</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                nec tortor sit amet, maximus mattis dui. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">        
+                    <div class="card">
+                        <img class="card-img-top" src="img/lol.jpg">            
+                        <div class="card-body">
+                            <h4 class="card-title">League of legends</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                nec tortor sit amet, maximus mattis dui. </p>
+                        </div>
+                    </div>
+                </div>
+                
+                
             </div>
-        </footer>
+        
+              <!--otra fila-->
+              <br><br>
+        
+            <div class="row">       
+                <div class="col-md">        
+                    <div class="card">
+                        <img class="card-img-top" src="img/lol.jpg">            
+                        <div class="card-body">
+                            <h4 class="card-title">League of legends</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                              tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                              nec tortor sit amet, maximus mattis dui. </p>
+                        </div>
+                    </div>          
+                </div>
+
+                <div class="col-md">        
+                    <div class="card">
+                        <img class="card-img-top" src="img/lol.jpg">            
+                        <div class="card-body">
+                            <h4 class="card-title">League of legends</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                                tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                                nec tortor sit amet, maximus mattis dui. </p>
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="col-md">        
+                    <div class="card">
+                      <img class="card-img-top" src="img/lol.jpg">            
+                      <div class="card-body">
+                        <h4 class="card-title">League of legends</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem, 
+                                              tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
+                                              nec tortor sit amet, maximus mattis dui. </p>
+                      </div>
+                    </div>          
+                </div>
+            </div>
+        </div>
+        <br><br>
+
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
+
+    <footer class="footer">
+        <div class="footer-div">
+            <h4>Copyright - Todos los derechos reservados</h4>
+            <p>Siguenos en nuestras <b>redes sociales</b></p>
+            <a target="_blank" class="img-github" href="https://github.com/iwxlf/Experiencia1_OyarzoQuezadaReyes_003D"><img src="img/github.png"></a>
+            <a target="_blank" class="img-instagram" href="https://instagram.com/"><img src="img/instagram.png"></a>
+            <a target="_blank" class="img-youtube" href="https://www.youtube.com/watch?v=2Z412FMaF4Q&ab_channel=ElsinHD"><img src="img/youtube.png"></a>
+        </div>
+        <div class="footer-div1">
+            <p>Ignacio Oyarzo - Carlos Quezada - Guillermo Reyes, Copyright &copy;2021 AllStar.</span></p>
+        </div>
+    </footer>
 </html>
