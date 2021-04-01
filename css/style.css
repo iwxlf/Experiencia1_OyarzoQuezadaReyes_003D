@@ -84,9 +84,108 @@ h1{
     font-size: 35px !important;
 }
 
+.desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+
 .headertrans{
     opacity: 0.8;
 }
 
+*{
+    box-sizing: border-box !important;
+}
 
-  
+.wrapper-1{
+    display: flex !important;
+    width: 70% !important;
+    justify-content: space-around !important;
+}
+
+.card-1{
+    width: 280px !important;
+    height: 360px !important;
+    padding: 2rem 1rem !important;
+    background: #ffffff !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: flex-end !important;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5) !important;
+    transition: 0.5s ease-in-out !important;
+}
+
+.card-1:hover{
+    transform: translateY(20px) !important;
+}
+
+.card-1:before{
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    background:  linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1)) !important;
+    z-index: 2 !important;
+    transition: 0.5s all !important;
+    opacity: 0 !important;
+}
+
+.card-1:hover:before{
+    opacity: 1 !important;
+}
+
+.card-1 img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.card-1 .info-1{
+    position: relative !important;
+    z-index: 3 !important;
+    color: #ffffff !important;
+    opacity: 0 !important;
+    transform: translateY(30px) !important;
+    transition: 0.5s all !important;
+}
+
+.card-1:hover .info-1{
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
+}
+
+.card-1 .info-1 h1{
+    margin: 0;
+}
+
+.card-1 .info-1 p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.card-1 .info-1 .btn-1{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #ffffff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.card-1 .info-1 .btn-1:hover{
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+}
