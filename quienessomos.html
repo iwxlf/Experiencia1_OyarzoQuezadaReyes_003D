@@ -1,23 +1,39 @@
+<!-- Tipo de documento HTML -->
 <!DOCTYPE html>
 <html>
+    <!-- Cabecera de la página: Información general, enlaces script, hojas de estilo, font, etc. -->
     <head>
+        <!-- Tipo de codificación utilizada y formato de codificación de carácteres unicode (UTF-8). -->
         <meta charset="UTF-8">
+        <!-- Definiendo mi hoja de estilos CSS (Enlazar). -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- ¿? -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Definiendo mi framework (hoja de estilos) -->
         <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <!-- Establecer conección con los fonts de Google -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- Definiendo mis fuentes desde Google-->
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-        <title>All Stars</title>
-        <link rel="icon" href="img/estrella.png">
+        <!-- Título de la página web -->
+        <title>All Stars - ¿Quiénes somos?</title>
+        <!-- Icono de la página web -->
+        <link rel="icon" href="img/head-logo.png">
     </head>
+
+    <!-- Cuerpo de la página (lo visible) -->
     <body>
+        <video autoplay replay muted loop class="body-i">
+            <source src="videos/background-body.mp4" type="video/mp4">
+        </video>
+        <!-- Menú de navegación -->
         <header class="sticky-top headertrans">
             <nav class="navbar navbar-expand-sm navbar-light bg-light nav">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <a href="index.html"><img class="logo-nav" src="img/logo.png"></a>
+                </button>
+                <a href="index.html"><img class="logo-nav" src="img/general-logo.png"></a>
                 <div class="collapse navbar-collapse" id="opciones"> 
                     <ul class="navbar-nav">
                         <li class="nav-item items"><a href="index.html">Inicio</a></li>
@@ -27,114 +43,111 @@
                 </div>
             </nav>
         </header>
+        <!-- Video de inicio quienes somos -->
         <video autoplay replay muted loop>
-            <source src="videos/video.mp4" type="video/mp4">
+            <source src="videos/whoweare.mp4" type="video/mp4">
         </video>
-
-
         <h1>Quienes somos</h1>
         <div class="container">
-            
             <div class="info">
                 <p>All Star es una comunidad y marca conformada por amigos que en sus pasatiempos juegan y disfrutan de aquello, una comunidad hecha por Gamers para Gamers. Tenemos el objetivo de llegar a todos los usuarios de la comunidad para que tengan mejores artículos para competir, siendo todo esto relación calidad/precio que es lo más importante para toda nuestra comunidad.</p>
                 <hr>
                 <a href="https://youtu.be/Y_qZxSoAyZs" target="_blank" class="enlace">Saber más</a>
                 <hr>
             </div>
-            
         </div>
-            <div class="container">
-                    <div class="row">
-                        <div class="col-md">
-                            <div class="cajaquienessomos">
-                                <img src="img/lupa.png" class="quienessomosimg">
-                                <h3><b>Busqueda</b></h3>
-                                <p class="quienessomostexto">Les damos la posibilidad de encontrar juegos nuevos para expandir su galeria; se abran paso a nuevos mundos y aventuras en las cual ocupar su ocio y tan preciado tiempo libre.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md">
-                            <div class="cajaquienessomos">
-                                <img src="img/billetes.png" class="quienessomosimg">
-                                <h3><b>Compra</b></h3>
-                                <p class="quienessomostexto">¿En que gastar dinero?<br>En esta pagina le mostramos productos en los que puede gastar su valioso dinero en todo lo que un gamer pueda necesitar para tener el mejor de los set-ups.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md">
-                            <div class="cajaquienessomos">
-                                <img src="img/comunidad.png" class="quienessomosimg">
-                                <h3><b>Comunidad</b></h3>
-                                <p class="quienessomostexto">¿Para que quiero una comunidad?<br>Tenemos una servidor de<a href="https://discord.com/" target="_blank" class="enlace">discord</a> enfocado a formar una comunidad, hacer amigos, compartir opiniones o simplemente hablar.</p>
-                            </div>
-                        </div>
+        <!-- Container imagenes y información -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="cajaquienessomos">
+                        <img src="img/whoweare-lupa.png" class="quienessomosimg">
+                        <h3><b>Busqueda</b></h3>
+                        <p class="quienessomostexto">Les damos la posibilidad de encontrar juegos nuevos para expandir su galeria; se abran paso a nuevos mundos y aventuras en las cual ocupar su ocio y tan preciado tiempo libre.</p>
                     </div>
-            </div>
-            <br>
-            <h1>Nuestro equipo</h1>
-            <div class="container">
-                <hr>
-                <br>
-                <div class="row">
-                    <div class="col-md">
-                        <div>
-                            <img src="img/Carlos.jpeg" class="imgequipo">
-                            <h3><b>Carlos Quezada</b></h3>
-                            <ul class="infoequipo">
-                                <li>18 años.</li>
-                                <li>Ingeniería en Informática.</li>
-                                <li>Gamer, Skater.</li>
-                                <li>Maipú.</li>
-                                <li>Juegos: League of Legends, Minecraft, Elsword, Valorant, Osu.</li>
-                            </ul>
-                        </div>
-                    </div>
+                </div>
 
-                    <div class="col-md">
-                        <div>
-                            <img src="img/Guillermo.jpg" class="imgequipo">
-                            <h3><b>Guillermo Reyes</b></h3>
-                            <ul class="infoequipo">
-                                <li>19 años.</li>
-                                <li>Ingeniería en Informática.</li>
-                                <li>Gamer.</li>
-                                <li>Maipú.</li>
-                                <li>Juegos: CS:GO, COD Warzone, Valorant, Don't Starve Together, GTA V.</li>
-                            </ul>
-                        </div>
+                <div class="col-md">
+                    <div class="cajaquienessomos">
+                        <img src="img/whoweare-billetes.png" class="quienessomosimg">
+                        <h3><b>Compra</b></h3>
+                        <p class="quienessomostexto">¿En que gastar dinero?<br>En esta pagina le mostramos productos en los que puede gastar su valioso dinero en todo lo que un gamer pueda necesitar para tener el mejor de los set-ups.</p>
                     </div>
+                </div>
 
-                    <div class="col-md">
-                        <div>
-                            <img src="img/monkey.jfif" class="imgequipo">
-                            <h3><b>Ignacio Oyarzo</b></h3>
-                            <ul class="infoequipo">
-                                <li>19 años.</li>
-                                <li>Ingeniería en Informática.</li>
-                                <li>Gamer.</li>
-                                <li>Maipú.</li>
-                                <li>Juegos: Dead by Daylight, Rainbow Six, League of Legends, GTA V, Darksoul.</li>
-                            </ul>
-                        </div>
+                <div class="col-md">
+                    <div class="cajaquienessomos">
+                        <img src="img/whoweare-comunidad.png" class="quienessomosimg">
+                        <h3><b>Comunidad</b></h3>
+                        <p class="quienessomostexto">¿Para que quiero una comunidad?<br>Tenemos una servidor de<a href="https://discord.com/" target="_blank" class="enlace">discord</a> enfocado a formar una comunidad, hacer amigos, compartir opiniones o simplemente hablar.</p>
                     </div>
                 </div>
             </div>
-            <br><br>
+        </div>
 
+        <br>
+        <h1>Nuestro equipo</h1>
+        <div class="container">
+            <hr>
+            <br>
+            <div class="row">
+                <div class="col-md">
+                    <div>
+                        <img src="img/who-carlos.jpg" class="imgequipo">
+                        <h3><b>Carlos Quezada</b></h3>
+                        <ul class="infoequipo">
+                            <li>18 años.</li>
+                            <li>Ingeniería en Informática.</li>
+                            <li>Gamer, Skater.</li>
+                            <li>Maipú.</li>
+                            <li>Juegos: League of Legends, Minecraft, Elsword, Valorant, Osu.</li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="col-md">
+                    <div>
+                        <img src="img/who-guillermo.jpg" class="imgequipo">
+                        <h3><b>Guillermo Reyes</b></h3>
+                        <ul class="infoequipo">
+                            <li>19 años.</li>
+                            <li>Ingeniería en Informática.</li>
+                            <li>Gamer.</li>
+                            <li>Maipú.</li>
+                            <li>Juegos: CS:GO, COD Warzone, Valorant, Don't Starve Together, GTA V.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div>
+                        <img src="img/who-ignacio.jpg" class="imgequipo">
+                        <h3><b>Ignacio Oyarzo</b></h3>
+                        <ul class="infoequipo">
+                            <li>19 años.</li>
+                            <li>Ingeniería en Informática.</li>
+                            <li>Gamer.</li>
+                            <li>Maipú.</li>
+                            <li>Juegos: Dead by Daylight, Rainbow Six, League of Legends, GTA V, Darksoul.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <!-- Script JQuery -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
-
-
-    <footer class="footer ">
+    <!-- Pie de la página -->
+    <footer class="footer">
         <div class="footer-div">
             <h4>Copyright - Todos los derechos reservados</h4>
             <p>Siguenos en nuestras <b>redes sociales</b></p>
-            <a target="_blank" class="img-github" href="https://github.com/iwxlf/Experiencia1_OyarzoQuezadaReyes_003D"><img src="img/github.png"></a>
-            <a target="_blank" class="img-instagram" href="https://instagram.com/"><img src="img/instagram.png"></a>
-            <a target="_blank" class="img-youtube" href="https://www.youtube.com/watch?v=2Z412FMaF4Q&ab_channel=ElsinHD"><img src="img/youtube.png"></a>
+            <a target="_blank" class="img-github" href="https://github.com/iwxlf/Experiencia1_OyarzoQuezadaReyes_003D"><img src="img/footer-github.png"></a>
+            <a target="_blank" class="img-instagram" href="https://instagram.com/"><img src="img/footer-instagram.png"></a>
+            <a target="_blank" class="img-youtube" href="https://www.youtube.com/watch?v=2Z412FMaF4Q&ab_channel=ElsinHD"><img src="img/footer-youtube.png"></a>
         </div>
         <div class="footer-div1">
             <p>Ignacio Oyarzo - Carlos Quezada - Guillermo Reyes, Copyright &copy;2021 AllStar.</span></p>

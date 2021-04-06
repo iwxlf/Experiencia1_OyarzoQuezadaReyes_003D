@@ -1,11 +1,51 @@
-body{
-    background-color: #ffffff!important;
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* Body */
+/* Clase de background con vídeo */
+.body-i{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+        
+    z-index: -100;
+
+    background-size: cover;
+    opacity: 0.6;
+}
+/* -----------*/
+
+
+/* --- Menú de todas las páginas --- */
+nav.navbar {
+    background-color: #ffffff !important;
 }
 
-.nav{
-    background-color: #ffffff;
+.logo-nav{
+    width: 120px;
+    height: 80px;
 }
 
+.headertrans{
+    opacity: 0.9;
+}
+/* -----------*/
+
+
+/* --- Videos en general --- */
+video{
+    width: 100%;
+    height: 100%;
+}
+/* -----------*/
+
+
+/* --- Textos en general --- */
 a{
     text-align: center !important;
     color: #000000 !important;
@@ -19,49 +59,18 @@ a:hover{
     transition: 0.5s !important;
 }
 
-.logo-nav{
-    width: 120px;
-    height: 80px;
-}
-
-
-.footer{
-    padding-bottom: 1px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-}
-
-.footer-div{
-    background-color: #181818;
+h1{
+    text-align: center !important;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-left: 0;
-    border-right: 0;
+    font-family: 'Dela Gothic One', cursive !important;
+    font-size: 35px !important;
+    color: #000000;
 }
-
-.footer-div1 p{
-    background-color: #000000;
-    padding-top: 10px;
-    font-family: 'PT Sans', sans-serif;
-}
-
-.img-github{
-    margin-left: 0px;
-}
-
-.img-instagram{
-    margin-left: 10px;
-}
-
-.img-youtube{
-    margin-left: 10px;
-}
+/* -----------*/
 
 
+/* --- Card index --- */
 .card1{
     border-radius: 20px !important;
     box-shadow: 0 2px 2px rgb(102, 76, 163) !important;
@@ -76,28 +85,71 @@ a:hover{
     box-shadow: 0 12px 16px rgb(102, 76, 163) !important;
 }
 
-h1{
-    text-align: center !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Dela Gothic One', cursive !important;
-    font-size: 35px !important;
+.card{
+    border-radius: 20px !important;
+}
+/* -----------*/
+
+
+/* --- Quienes somos --- */
+.info{
+    text-align: center;
     color: #000000;
 }
 
-.desvanecer:hover {
-    opacity: 0.07;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -o-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
-    transition: opacity 500ms;
-  }
-
-.headertrans{
-    opacity: 0.8;
+.quienessomosimg{
+    height: 100px;
+    width: 100px;
 }
 
+.enlace{
+    color: #0084ff !important;
+    text-decoration: none;
+    border-left: 0px !important;
+}
+
+.enlace:hover{
+    color:#3e2665;
+    transition: 0.5s;
+}
+
+.imgequipo{
+    border-radius: 20px !important;
+    height: 300px;
+    width: 300px;
+}
+
+.infoequipo{
+    padding-left: 30px;
+    padding-top: 0px;
+}
+/* -----------*/
+
+
+/* --- Barra de descuento shop ---*/
+.barrita{
+    top: 100px;
+    direction: left;
+    background: #c501c5;
+}
+
+.logito{
+    display: inline-block; 
+    position: relative; 
+    top: 0px;
+}
+
+.imagen-logo{
+    max-height: 60px;
+}
+
+strong{
+    color: #ffffff;
+}
+/* -----------*/
+
+
+/* --- Card Shop ---*/
 *{
     box-sizing: border-box !important;
 }
@@ -191,75 +243,70 @@ h1{
 .card-1 .info-1 .btn-1:hover{
     box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
 }
+/* -----------*/
 
-.quienessomosimg{
-    height: 100px;
-    width: 100px;
-    }
 
-.cajaquienessomos{
-    border-color: #000;
+/* Body */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
 
-}
+/* ///////////////////////////////////////////////////////////////////// */
 
-.barrita{
-    top: 100px;
-    direction: left;
-    background: #ffffff;
-}
-
-.logito{
-    display: inline-block; 
-    position: relative; 
-    top: 0px;
-}
-
-.imagen-logo{
-    max-height: 60px;
-}
-
-strong{
-    color: #e40000;
-}
-
-.card{
-    border-radius: 20px !important;
-}
-
-video{
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* Footer */
+.footer{
+    padding-bottom: 1px;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 100%;
-}
-
-.info{
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
-    color: #000000;
 }
 
-.quienessomosimg{
-    height: 100px;
-    width: 100px;
-    }
-
-.enlace{
-    color: #0084ff !important;
-    text-decoration: none;
-    border-left: 0px !important;
+.footer-div{
+    background-color: #181818;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 0;
+    border-right: 0;
 }
 
-.enlace:hover{
-    color:#3e2665;
-    transition: 0.5s;
-
+.footer-div1 p{
+    background-color: #000000;
+    padding-top: 10px;
+    font-family: 'PT Sans', sans-serif;
 }
 
-.imgequipo{
-    border-radius: 20px !important;
-    height: 300px;
-    width: 300px;
+.img-github{
+    margin-left: 0px;
 }
 
-.infoequipo{
-    padding-left: 30px;
-    padding-top: 0px;
+.img-instagram{
+    margin-left: 10px;
 }
+
+.img-youtube{
+    margin-left: 10px;
+}
+/* Footer */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
